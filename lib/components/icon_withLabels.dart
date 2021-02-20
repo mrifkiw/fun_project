@@ -14,7 +14,6 @@ class IconWithLabel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 14.0),
       child: Row(
         children: [
           Icon(
@@ -27,7 +26,10 @@ class IconWithLabel extends StatelessWidget {
           ),
           Text(
             this.label,
-            style: TextStyle(fontSize: 10),
+            style: TextStyle(
+              fontSize: 10,
+              fontFamily: 'Mulish',
+            ),
           ),
         ],
       ),
