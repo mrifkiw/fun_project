@@ -7,6 +7,20 @@ class ListBookmark {
   final List<DetailsBook> _cardBookDetails = [
     DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
         Conditions.kurang_baik, "./images/fisika.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/kimia.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/mtk.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/pkn.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/fisika.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/kimia.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/mtk.jpg"),
+    DetailsBook("4.6", "1.0", "FISIKA", "Ni Ketut Lasmi",
+        Conditions.kurang_baik, "./images/pkn.jpg"),
   ];
   int getListLength() => this._cardBookDetails.length;
   String getRating(int index) => this._cardBookDetails[index].rating;

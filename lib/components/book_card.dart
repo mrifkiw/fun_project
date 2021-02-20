@@ -22,7 +22,7 @@ class ListBookCard extends StatelessWidget {
     return Container(
       height: 100,
       width: double.infinity,
-      margin: EdgeInsets.symmetric(horizontal: 17, vertical: 10),
+      margin: EdgeInsets.only(left: 17, bottom: 10, right: 17),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(
           Radius.circular(5),
@@ -34,7 +34,10 @@ class ListBookCard extends StatelessWidget {
         children: [
           Padding(
             padding: EdgeInsets.fromLTRB(21, 14, 0, 14.15),
-            child: Image.asset(this.image),
+            child: Image.asset(
+              this.image,
+              width: 49.9,
+            ),
           ),
           Container(
             width: 255.1,
